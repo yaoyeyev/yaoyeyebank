@@ -1,0 +1,1 @@
+"use strict";function move(e,o,n){for(var r in o)var a=parseInt(window.getComputedStyle(e)[r]),l=setInterval(function(){var t=0<(t=(o[r]-a)/5)?Math.ceil(t):Math.floor(t);a+=t,e.style[r]=a+"px",a==o[r]&&(clearInterval(l),n())},100);console.log(111111111)}
